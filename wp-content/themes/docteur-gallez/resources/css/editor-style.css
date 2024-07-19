@@ -1,0 +1,79 @@
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@font-face {
+  font-family: "Optima";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Optima"),
+    url("../../fonts/OPTIMA.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Optima Italic";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Optima Italic"),
+    url("../../fonts/Optima_Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Optima Medium";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Optima Medium"),
+    url("../../fonts/Optima Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Optima Bold";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Optima Bold"),
+    url("../../fonts/OPTIMA_B.woff") format("woff");
+}
+
+body {
+  @apply font-sans  bg-yellow-100;
+}
+
+.wp-block {
+  @apply max-w-screen-xl;
+}
+
+.wp-block[data-align="wide"] {
+  @apply max-w-screen-xl;
+}
+
+.wp-block[data-align="full"] {
+  @apply max-w-full;
+}
+
+h1.block-editor-rich-text__editable {
+  @apply text-7xl leading-[5.6rem] font-serif font-bold;
+}
+.wp-block-button.is-style-corail-button .wp-block-button__link {
+  @apply bg-corail text-white text-lg;
+}
+.wp-block-button.is-style-outline .wp-block-button__link {
+  @apply text-white text-lg;
+}
+
+h1 {
+  @apply text-7xl leading-[5.6rem] font-serif font-bold;
+}
+#cabinets h2 {
+  @apply text-3xl leading-[2.6rem] font-serif font-medium;
+}
+h2 {
+  @apply text-4xl leading-[3.6rem] font-serif font-bold;
+}
+h3 {
+  @apply text-5xl leading-[4rem] font-serif;
+}
+h4 {
+  @apply text-3xl leading-[2.6rem] font-serif;
+}

@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "settings": {
+    "layout": {
+      "contentSize": "1400px",
+      "wideSize": "1400px"
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "#0EA5E9"
+        },
+        {
+          "name": "White",
+          "slug": "white",
+          "color": "#ffffff"
+        },
+        {
+          "name": "Green",
+          "slug": "green",
+          "color": "#00ff00"
+        },
+        {
+          "name": "Olive 500",
+          "slug": "olive-500",
+          "color": "#62868D"
+        },
+        {
+          "name": "Olive 600",
+          "slug": "olive-600",
+          "color": "#4C7178"
+        },
+        {
+          "name": "Olive 700",
+          "slug": "olive-700",
+          "color": "#3B5D64"
+        },
+        {
+          "name": "Olive 800",
+          "slug": "olive-800",
+          "color": "#26454B"
+        },
+        {
+          "name": "Corail",
+          "slug": "corail",
+          "color": "#D78B7D"
+        },
+        {
+          "name": "Yellow 100",
+          "slug": "yellow-100",
+          "color": "#FAF8F2"
+        },
+        {
+          "name": "Yellow 200",
+          "slug": "yellow-200",
+          "color": "#F9F3E3"
+        },
+        {
+          "name": "Grey 700",
+          "slug": "grey-700",
+          "color": "#303030"
+        },
+        {
+          "name": "Grey 600",
+          "slug": "grey-600",
+          "color": "#605E5E"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "name": "Extra Extra small",
+          "slug": "xxs",
+          "size": "0.875rem"
+        },
+        {
+          "name": "Extra small",
+          "slug": "xs",
+          "size": "1rem"
+        },
+        {
+          "name": "Small",
+          "slug": "sm",
+          "size": "1.2rem"
+        },
+        {
+          "slug": "md",
+          "name": "Medium",
+          "size": "1.4rem"
+        },
+        {
+          "slug": "lg",
+          "name": "Large",
+          "size": "1.6rem"
+        },
+        {
+          "slug": "xl",
+          "name": "Extra Large",
+          "size": "1.8rem"
+        },
+        {
+          "slug": "2xl",
+          "name": "2XL",
+          "size": "2.1rem"
+        },
+        {
+          "slug": "3xl",
+          "name": "3XL",
+          "size": "2.6rem"
+        },
+        {
+          "slug": "4xl",
+          "name": "4XL",
+          "size": "3.2rem"
+        },
+        {
+          "slug": "5xl",
+          "name": "5XL",
+          "size": "4rem"
+        },
+        {
+          "slug": "6xl",
+          "name": "6XL",
+          "size": "4.6rem"
+        },
+        {
+          "slug": "7xl",
+          "name": "7XL",
+          "size": "5.6rem"
+        }
+      ]
+    }
+  }
+}
